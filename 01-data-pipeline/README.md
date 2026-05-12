@@ -7,7 +7,7 @@ The pipeline supports multiple finance workflows, including Procure to Pay, Orde
 ## Pipeline Flow
 
 ```text
-SAP Source Files (BSEG, LFA1, EKKO, EKPO)
+SAP Source Files 
 ↓
 Raw Data Import
 ↓
@@ -17,15 +17,17 @@ Data Staging (Business Object Mapping)
 ↓
 Data Validations / Control Checks (DCC)
 ↓
-Data Mapping (PO → Invoice → Payment → GL)
+Data Mapping 
 ↓
-SQL Test Execution (40+ fraud/risk detection tests)
+SQL Test Execution (Fraud/risk detection tests)
 ↓
 Risk Scoring & Test Hits
 ↓
 Analytical Views (Entity-level + Transaction-level)
 ↓
 Dashboards & Review Workflow
+
+```
 
 ## Step-by-Step Breakdown
 
