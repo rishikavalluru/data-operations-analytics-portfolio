@@ -38,19 +38,14 @@ The SQL work shown here demonstrates how raw financial data is cleaned, validate
 │   ├── README.md
 │   └── Mapping.sql
 │
-├── fraud-risk-tests/
-│   ├── README.md
-│   ├── P2PPVPO730_split_po_detection.sql
-│   ├── P2PFMPO242_vendor_mismatch.sql
-│   ├── P2PSTPO990_statistical_outlier.sql
-│   ├── O2CFMCA266_credit_limit_exceeded.sql
-│   └── P2PFMPO261_weekend_holiday_processing.sql
-│
-└── analytical-views/
+└── fraud-risk-tests/
     ├── README.md
-    ├── entity_view.sql
-    ├── transaction_view.sql
-    └── risk_ranking.sql
+    ├── P2PPVPO730_split_po_detection.sql
+    ├── P2PFMPO242_vendor_mismatch.sql
+    ├── P2PSTPO990_statistical_outlier.sql
+    ├── O2CFMCA266_credit_limit_exceeded.sql
+    └── P2PFMPO261_weekend_holiday_processing.sql
+
 ```
 
 ## Test Categories
