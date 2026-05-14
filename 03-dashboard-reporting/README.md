@@ -6,7 +6,7 @@ The goal of these dashboards was to make large datasets easier for finance and o
 
 ## Portfolio File
 
-- [View Dashboard Reporting Portfolio PDF](./Rishika_Valluru_Dashboard_Reporting_Portfolio_Generalized.pdf)
+- [View Dashboard Reporting Portfolio PDF](./Rishika_Valluru_Dashboard_Reporting_Portfolio.pdf)
 
 ## Dashboard Areas Covered
 
