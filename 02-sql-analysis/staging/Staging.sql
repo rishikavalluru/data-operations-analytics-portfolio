@@ -368,26 +368,3 @@ BEGIN
     END CATCH
 END
 GO
-
--- ============================================================================
--- USAGE EXAMPLE
--- ============================================================================
-/*
-EXEC [Staging].[SAP_EKPO]
-    @TableName = '[Raw].[P2PSAPEKPO_20260512]',
-    @TableType = 'EKPO',
-    @FileId = '41 64D0F7-626C-4EE6-A432-6C39CF6F4461',
-    @CorrelationID = NEWID(),
-    @UserID = 'A1234567-89AB-CDEF-0123-456789ABCDEF'
-*/
-
--- ============================================================================
--- PROCESS FLOW
--- ============================================================================
--- 1. Schema Validation     → Ensures MANDT column exists
--- 2. Duplicate Detection   → Marks duplicates as soft-deleted
--- 3. Column List Generation → Builds dynamic SQL for varying schemas
--- 4. Update Existing       → Updates matching records in staging
--- 5. Insert New            → Adds new records to staging
--- 6. Audit & Status Update → Updates processing metrics and audit trail
--- ============================================================================
