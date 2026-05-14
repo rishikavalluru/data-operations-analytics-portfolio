@@ -2,8 +2,6 @@
 
 This folder contains SQL used to connect source data to business objects such as invoices, payments, vendors, customers, purchase orders, expense claims, and general ledger activity.
 
-# SAP Procure-to-Pay Data Mapping
-
 ## Overview
 This stored procedure transforms staged SAP Purchase Order data (EKKO, EKPO) into a unified analytics model through incremental processing, lookback logic, and vendor master enrichment.
 
