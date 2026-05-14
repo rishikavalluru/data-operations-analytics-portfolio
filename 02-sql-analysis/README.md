@@ -24,7 +24,7 @@ The SQL work shown here demonstrates how raw financial data is cleaned, validate
 │
 ├── data-quality-checks/
 │   ├── README.md
-│   └── DQC.sql
+│   └── dqc.sql
 │
 ├── staging/
 │   ├── README.md
@@ -32,7 +32,7 @@ The SQL work shown here demonstrates how raw financial data is cleaned, validate
 │
 ├── validation-checks/
 │   ├── README.md
-│   └── DCC.sql
+│   └── dcc.sql
 │
 ├── mapping/
 │   ├── README.md
