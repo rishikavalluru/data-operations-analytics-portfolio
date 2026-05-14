@@ -25,9 +25,9 @@ The work spans data quality checks, staging, validation, mapping, SQL-based frau
 |---------|----------|
 | [`01-data-pipeline`](./01-data-pipeline) | End-to-end pipeline architecture from SAP source to dashboards |
 | [`02-sql-analysis`](./02-sql-analysis) | Data quality checks, staging, validation, mapping, and fraud tests |
-| [`03-dashboard-reporting`](./03-dashboard-reporting) | Entity View, Transaction View, and reporting examples |
+| [`03-dashboard-reporting`](./03-dashboard-reporting) | Dashboard reporting examples for expense monitoring, procurement analytics, trend analysis, category stratification, and operational KPI review. |
 | [`04-business-impact`](./04-business-impact) | Metrics, outcomes, and business value delivered |
-| [`assets`](./assets) | Screenshots and supporting visuals |
+
 
 ## Pipeline Overview
 ```text
