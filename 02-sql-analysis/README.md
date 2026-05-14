@@ -40,19 +40,11 @@ The SQL work shown here demonstrates how raw financial data is cleaned, validate
 │
 ├── fraud-risk-tests/
 │   ├── README.md
-│   ├── p2p-tests/
-│   │   ├── P2PFMPO741_split_po_threshold.sql
-│   │   ├── P2PFMPO743_price_variance.sql
-│   │   ├── P2PSTPO990_statistical_outlier.sql
-│   │   ├── P2PFMPO261_weekend_holiday.sql
-│   │   ├── P2PFMPO242_vendor_mismatch.sql
-│   │   └── P2PPVPO730_duplicate_po.sql
-│   ├── o2c-tests/
-│   │   ├── O2CACCA1021_government_pep_keywords.sql
-│   │   ├── O2CFMCA265_multiple_credit_limits.sql
-│   │   └── O2CFMCA266_credit_exposure_exceeds_limit.sql
-│   └── tne-tests/
-│       └── (T&E fraud detection tests)
+│   ├── P2PPVPO730_split_po_detection.sql
+│   ├── P2PFMPO242_vendor_mismatch.sql
+│   ├── P2PSTPO990_statistical_outlier.sql
+│   ├── O2CFMCA266_credit_limit_exceeded.sql
+│   └── P2PFMPO261_weekend_holiday_processing.sql
 │
 └── analytical-views/
     ├── README.md
