@@ -127,6 +127,3 @@ Implementation of these validations reduced:
 - Manual data correction effort by 30% through automated flagging
 - Downstream processing failures by identifying issues at source
 
-## Author
-Rishika Reddy Valluru
-
